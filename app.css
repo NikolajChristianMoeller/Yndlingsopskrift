@@ -1,29 +1,31 @@
-header {
-    
-}
-
-element.style {
-  border: 1px solid black;
-    width: 500px;
-}
-
-element.style {
-  border: 
-}
-
-
-aside
-
-.grid-container
-
-body {
-    font-family: Arial;
-}
-
-body {
-  background-color:darkkhaki;
-}
-
 .grid-container {
   display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1);
+  height: 100%;
+  width: 100%;
+  
+/*
+
+    justify-content: space;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 30vh 10vh;
+    gap: 2vw;
+    */
+}
+
+.section1 {
+  border: 1px solid;
+}
+
+.section2 {
+  border: 1px solid;
+}
+
+.section3 {
+  border: 1px solid;
+}
+
+.section4 {
+  border: 1px solid;
 }
