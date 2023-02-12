@@ -1,9 +1,12 @@
 .grid-container {
   display: grid;
+  background:pink;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 1);
   height: 100%;
   width: 100%;
+
+
   
 /*
 
@@ -14,12 +17,23 @@
     */
 }
 
+body {
+    margin: 100;
+    padding: 100;
+    font-family: arial, helvetica, sans-serif;
+
+}
+
+
+
 .section1 {
   border: 1px solid;
+
 }
 
 .section2 {
   border: 1px solid;
+
 }
 
 .section3 {
@@ -28,4 +42,29 @@
 
 .section4 {
   border: 1px solid;
+}
+
+header {
+    grid-area: header;
+    background-color: blue;
+}
+
+nav {
+    grid-area: nav;
+    background-color: green;
+}
+
+article {
+    grid-area: article;
+    background-color: crimson;
+}
+
+aside {
+    grid-area: aside;
+    background-color: cyan;
+}
+
+footer {
+    grid-area: footer;
+    background-color: blueviolet;
 }
