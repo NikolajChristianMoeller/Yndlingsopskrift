@@ -3,7 +3,6 @@
   background:pink;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 1);
-  height: 100%;
   width: 100%;
 
 
@@ -14,17 +13,32 @@
     grid-template-columns: 1fr 2fr 1fr;
     grid-template-rows: 30vh 10vh;
     gap: 2vw;
+
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1);
+
+
+
+
+    
     */
 }
 
+#headline {
+  color: red;
+}
 body {
     margin: 100;
     padding: 100;
-    font-family: arial, helvetica, sans-serif;
-
+    font-family: arial, sans-serif;
 }
 
-
+h1 {
+  font-size: 36px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  padding: 10px
+}
 
 .section1 {
   border: 1px solid;
@@ -46,8 +60,8 @@ body {
 
 header {
     grid-area: header;
-    background-color: blue;
 }
+
 
 nav {
     grid-area: nav;
@@ -66,5 +80,4 @@ aside {
 
 footer {
     grid-area: footer;
-    background-color: blueviolet;
 }
